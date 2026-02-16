@@ -1,6 +1,6 @@
 {
   "name": "flashcapture-node",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Official Node.js wrapper for FlashCapture API (RapidAPI). Async website screenshots made easy.",
   "main": "index.js",
   "types": "index.d.ts",

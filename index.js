@@ -10,8 +10,8 @@ class FlashCapture {
         if (!apiKey) throw new Error("FlashCapture: API Key is required.");
         
         this.apiKey = apiKey;
-        this.baseURL = 'https://flashcapture.p.rapidapi.com';
-        this.host = 'flashcapture.p.rapidapi.com';
+        this.baseURL = 'https://flashcapture-screenshot-api.p.rapidapi.com';
+        this.host = 'flashcapture-screenshot-api.p.rapidapi.com';
         
         this.client = axios.create({
             baseURL: this.baseURL,
@@ -33,7 +33,10 @@ class FlashCapture {
     async capture(url, options = {}, timeout = 60) {
         try {
             // 1. Submit Job
-            const { data: job } = await this.client.post('/capture', { url, options });
+            const { data: job } = await this.client.post('/capture',
+                { url: url, options: options }
+            );
+
             const jobId = job.id;
 
             // 2. Poll for completion
