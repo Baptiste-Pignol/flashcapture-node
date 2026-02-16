@@ -51,7 +51,7 @@ const client = new FlashCapture('YOUR_RAPIDAPI_KEY_HERE');
         console.log('📸 Snapping Google...');
         
         const result = await client.captureAndSave(
-            '[https://www.google.com](https://www.google.com)', 
+            '[https://www.wikipedia.org](https://www.wikipedia.org)', 
             './google.png', 
             { 
                 fullPage: true, 
@@ -77,7 +77,7 @@ const client = new FlashCapture('YOUR_KEY');
 
 (async () => {
     // 1. Submit job and wait for completion (Auto-polling)
-    const job = await client.capture('[https://www.wikipedia.org/](https://www.wikipedia.org/)', {
+    const job = await client.capture('[https://www.wikipedia.org](https://www.wikipedia.org)', {
         width: 1920,
         height: 1080,
         hideElements: ['.cookie-banner', '#ad-sidebar']
