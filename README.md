@@ -29,7 +29,7 @@ npm install flashcapture-node
 You need an API Key from RapidAPI.
 
 1. Go to [FlashCapture on RapidAPI](https://rapidapi.com/BaptistePignol/api/flashcapture-screenshot-api).
-2. Subscribe to the **Free Tier** (50 shots/month).
+2. Subscribe to the **Free Tier** (10 shots/month).
 3. Copy your `X-RapidAPI-Key`.
 
 ---
