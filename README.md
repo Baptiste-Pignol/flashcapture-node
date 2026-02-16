@@ -2,7 +2,7 @@
 
 [![npm version](https://img.shields.io/npm/v/flashcapture-node.svg?style=flat-square)](https://www.npmjs.com/package/flashcapture-node)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
-[![RapidAPI](https://img.shields.io/badge/RapidAPI-FlashCapture-blueviolet?style=flat-square)](https://rapidapi.com/your-username/api/flashcapture)
+[![RapidAPI](https://img.shields.io/badge/RapidAPI-FlashCapture-blueviolet?style=flat-square)](https://rapidapi.com/BaptistePignol/api/flashcapture-screenshot-api)
 
 The official, high-performance Node.js wrapper for the **FlashCapture API**.
 
