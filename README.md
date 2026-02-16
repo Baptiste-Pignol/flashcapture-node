@@ -1,4 +1,3 @@
-```markdown
 # 📸 FlashCapture Node.js Client
 
 [![npm version](https://img.shields.io/npm/v/flashcapture-node.svg?style=flat-square)](https://www.npmjs.com/package/flashcapture-node)
